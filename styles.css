@@ -1,0 +1,62 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+
+:root {
+    --cor-de-fundo: #F5F3EE;
+    --branco: #FFFFFF;
+    --dourado: #C49A00;
+    --marrom-escuro: #4B2E0F;
+    --vermelho-grifinoria: #7F0909;
+    --verde-sonserina: #245D31;
+    --azul-corvinal: #0E1A40;
+    --amarelo-lufa-lufa: #FFDB58;
+    --fonte-principal: "Poppins", sans-serif;
+    --fonte-mágica: "Cinzel", serif;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+header {
+    background-color: var(--marrom-escuro);
+    color: var(--branco);
+}
+
+.banner {
+    background: var(--azul-corvinal);
+    color: var(--branco);
+}
+
+.carrossel {
+    background: var(--verde-sonserina);
+}
+
+.card__descrição, .card__botões {
+    background-color: var(--dourado);
+}
+
+.tópicos {
+    background-color: var(--vermelho-grifinoria);
+    color: var(--branco);
+}
+
+.contato {
+    background-color: var(--amarelo-lufa-lufa);
+}
+
+footer {
+    background-color: var(--marrom-escuro);
+    color: var(--branco);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--fonte-mágica);
+}
